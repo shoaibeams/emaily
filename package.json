@@ -1,0 +1,29 @@
+{
+  "name": "emaily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoaibeams/emaily.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoaibeams/emaily/issues"
+  },
+  "homepage": "https://github.com/shoaibeams/emaily#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
