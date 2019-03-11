@@ -6,11 +6,9 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import App from './components/App'
 import reducers from './reducers'
-import axios from 'axios'
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const enhancer = composeEnhancers(applyMiddleware(thunk))
 
-window.axios = axios
 const store = createStore(reducers, {}, enhancer)
 
 ReactDOM.render(
